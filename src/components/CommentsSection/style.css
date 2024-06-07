@@ -1,0 +1,87 @@
+.comment-section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+   
+}
+.commentTitle {
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.comment-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.comment-input {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.comment-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition:  0.2s ease-in-out;
+}
+
+.comment-button:hover {
+    background-color: #0056b3;
+}
+
+.comments-list {
+    
+    padding-top: 10px;
+    
+}
+
+.comment {
+    padding: 10px;
+    border-bottom: 1px solid rgb(215, 215, 215);
+   
+}
+
+.comment:last-child {
+    border-bottom: none;
+}
+
+.comentarioTexto {
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgb(44, 44, 44);
+}
+
+.containerUsuario {
+margin-bottom: 15px;
+}
+
+.nomeDoAutor {
+    font-weight: 700;
+}
+
+.emailDoAutor {
+    color: rgb(73, 73, 73);
+}
+
+.novoComentarioBotao {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    margin-top: 10px;
+    transition: .2s ease-in-out;
+}
+
+.novoComentarioBotao:hover {
+    background-color: rgb(43, 43, 43);
+    cursor: pointer;
+}

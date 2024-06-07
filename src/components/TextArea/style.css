@@ -1,0 +1,34 @@
+.textAreaContainer {
+    margin-top: 10px;
+}
+
+.textAreaTitle {
+    margin-bottom: 6px;
+    font-size: .9rem;
+}
+
+.textAreaComponent {
+    width: 100%;
+    height: 120px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    transition: .2s ease-in-out;
+
+}
+
+.textAreaComponent:focus {
+    border: 1px solid gray;
+    outline: none;
+}
+.errorMessage {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: red;
+}
+
+

@@ -1,0 +1,70 @@
+.postContainer {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    margin-top: 90px;
+    min-height: 80vh;
+}
+
+.postTitle {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.dateAuthorContainer {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: .5px solid rgb(212, 212, 212);
+    padding-bottom: 30px;
+
+}
+
+.postDate{ 
+    color:rgb(64, 64, 64);
+    font-weight: 500;
+}
+
+.dot {
+    width: 5px;
+    height: 5px;
+    background-color: rgb(116, 116, 116);
+    border-radius: 9999999px;
+}
+
+.postDescription {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.1rem;
+    line-height: 1.79rem;
+    color: #242424;
+}
+
+.voltarContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: min-content;
+    padding: 8px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    background-color: white;
+    p {
+        font-size: .9rem;
+        font-weight: 500;
+    }
+
+}
+
+.voltarContainer:hover {
+    background-color: rgb(226, 226, 226);
+}
+
+.voltarText {
+    margin-bottom: 0;
+}
+

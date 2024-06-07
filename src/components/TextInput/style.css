@@ -1,0 +1,29 @@
+.textInputContainer {
+    margin-top: 10px;
+}
+
+.textInputTitle {
+    margin-bottom: 6px;
+    font-size: .9rem;
+}
+
+.textInputComponent {
+    width: 100%;
+    padding:8px;
+    border: 1px solid rgb(206, 206, 206) ;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+.textInputComponent:focus {
+    border: 1px solid gray;
+}
+.errorMessage {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: red;
+}
+
+
