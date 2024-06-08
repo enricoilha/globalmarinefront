@@ -1,7 +1,13 @@
 footer {
-    background-color: #0353a4;
-    height: 15vh;
-    width: 100%;
-    padding: 10px;
-}
+  background-color: #0353a4;
+  height: 10vh;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  p {
+    color: white;
+  }
+}

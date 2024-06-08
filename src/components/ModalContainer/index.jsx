@@ -1,10 +1,5 @@
-import "./style.css"
+import "./style.css";
 
-export const ModalContainer = ({children}) => {
-
-    return (
-        <div className="modalContainer" >
-           {children}
-        </div>
-    )
-}
+export const ModalContainer = ({ children }) => {
+  return <div className="modalContainer">{children}</div>;
+};

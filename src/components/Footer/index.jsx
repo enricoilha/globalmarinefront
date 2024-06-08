@@ -1,10 +1,9 @@
-import "./style.css"
+import "./style.css";
 
 export const Footer = () => {
-    return (
-        <footer>
-     helo
-        </footer>
-    )
-}
-
+  return (
+    <footer>
+      <p>Projeto desenvolvido com ♥︎ para a FIAP</p>
+    </footer>
+  );
+};
